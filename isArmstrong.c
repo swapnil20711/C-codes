@@ -3,7 +3,7 @@
 #include<math.h>
 int main()
 {
-    int n,count=0,r,t,sum=0;
+    int n,r,count=0,t,sum=0;
     printf("Enter the number");
     scanf("%d",&n);
     t=n;//copy n to another variable
