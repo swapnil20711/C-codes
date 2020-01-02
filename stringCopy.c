@@ -8,5 +8,5 @@ int main()
     scanf("%s",&a);
     strcpy(b,a);
     printf("Copied string is %s",b);
-    return 0;
+
 }
