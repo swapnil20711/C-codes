@@ -6,7 +6,6 @@
 int main()
 {
     int arr[5],i;
-    //Test comment
     printf("Enter five numbers:");
     for(i=0;i<5;i++)
     {
