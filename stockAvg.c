@@ -4,14 +4,10 @@ float stocksAvg(float a[], int b[], int n)
 {
   int i;
   float Avg = 0, Qty = 0;
-  printf("Enter the stock prize in  order:\n");
+  printf("Enter the stock prize & stock quantity in  order:\n");
   for (i = 0; i < n; i++)
   {
     scanf("%f", &a[i]);
-  }
-  printf("Enter the stock Quantity in  order:\n");
-  for (i = 0; i < n; i++)
-  {
     scanf("%d", &b[i]);
   }
   for (i = 0; i < n; i++)
