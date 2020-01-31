@@ -18,16 +18,19 @@ float stocksAvg(float a[], int b[], int n)
   {
     Qty += b[i];
   }
+  printf("Total share prize is %f\n",Avg);
   Avg /= Qty;
   printf("%f is Quantity\n", Qty);
   return Avg;
 }
 int main()
 {
-  int n, stocksQuantity[100], Qty;
-  float stocksPrize[100], AvgStock;
+  int n, Qty;
+  float  AvgStock;
   printf("Enter the number of enteries:");
   scanf("%d", &n);
+  int stocksQuantity[n];
+  float stocksPrize[n];
   AvgStock = stocksAvg(stocksPrize, stocksQuantity, n);
   printf("%f is average of stocks", AvgStock);
   return 0;
