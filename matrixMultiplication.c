@@ -38,7 +38,6 @@ int main()
                 res[i][j] = sum;
                 sum = 0;
             }
-            printf("\n");
         }
         for (i = 0; i < c1; i++)
 
